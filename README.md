@@ -37,19 +37,20 @@ npm install
 3. Configure Environment Variables
 Create a .env file in the root directory:
 
-env
-=======
+env:-
+=====
 MONGODB_URI=mongodb://localhost:27017/bookstore
 JWT_SECRET=your_secure_jwt_secret_key
 PORT=4000
 Replace your_secure_jwt_secret_key with a strong secret key.
 
-4. Start the server
+Start the server:-
 ====================
 npm start
 npm run dev
 
--Access 
+Access :-
+=========
 http://localhost:4000/graphql(Open in Browser)
 
 
