@@ -1,0 +1,9 @@
+# Node modules
+node_modules/
+
+# Package lock file
+package-lock.json
+
+# dotenv environment files
+.env
+
