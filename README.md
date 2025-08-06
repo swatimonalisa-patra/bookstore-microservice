@@ -1,7 +1,9 @@
 GraphQL Bookstore Microservice:-
+===============================
 This is a GraphQL-based microservice for managing a bookstore. It allows users to register, login (with JWT auth), and perform CRUD operations on books and authors.
 
 Tech Stack:-
+============
 Node.js
 
 Express.js
@@ -13,6 +15,7 @@ MongoDB with Mongoose
 JWT Authentication
 
 Project Structure:-
+===================
 graphql-microservice/
 ├── models/             # Mongoose models for Book and Author
 ├── resolvers/          # GraphQL resolvers
@@ -25,6 +28,7 @@ graphql-microservice/
 └── README.md
 
 Setup Instructions:-
+====================
 1. Clone the repository
 git clone (https://github.com/swatimonalisa-patra/bookstore-microservice.git)
 cd graphql-microservice
@@ -34,12 +38,14 @@ npm install
 Create a .env file in the root directory:
 
 env
+=======
 MONGODB_URI=mongodb://localhost:27017/bookstore
 JWT_SECRET=your_secure_jwt_secret_key
 PORT=4000
 Replace your_secure_jwt_secret_key with a strong secret key.
 
 4. Start the server
+====================
 npm start
 npm run dev
 
